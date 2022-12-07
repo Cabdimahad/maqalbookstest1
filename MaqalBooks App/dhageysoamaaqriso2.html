@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/logo.png">
+  <link rel="stylesheet" href="dhageysoamaaqriso.css">
+    <title>dhageyso ama aqriso</title>
+</head>
+<body>
+     <!-- #####################HEADER################### -->
+     <header>
+        <div class="topnav">
+          <div class="flex">
+            <a href="./home.html"><img src="./images/back arrow.png" alt=""></a>
+          <div class="flex1">
+            <a href="./rukumo.html"><button class="sign-up">Rukumo</button></a>
+          </div>
+          </div>  
+        </div>
+      </header>
+        <hr>
+      <!-- #####################BODY################### -->
+      <img src="images/covers/subcon mind.jpg" alt="Book" class="center" style="width:200px">
+     <div class="tijaabibtn">
+        <a href="https://aabeqanihordhaca.netlify.app/"><button class="tijaabi">Tijaabi</button></a>
+     </div>
+     <hr>
+     <div class="flex2">
+        <!-- <a href=""><button class="sign-up">Dhegeyso</button></a> -->
+        <!-- Trigger/Open The Modal -->
+<button id="myBtn">Dhegeyso</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p class="rukumo">Si aad u dhageesato buugga oo dhameystiran waxa aad u baahantahy in aad rukumato xirmo 1 bila ah, 3 bile ah ama xirmo sanadle ah.</p>
+    <a href="./ruguncheck.html"><button class="sign-up">waan ahay rukun</button></a>
+    <a href="./rukumo.html"><button class="sign-up">Hada ayaan rukumanaa</button></a>
+
+  </div>
+
+</div>
+        <a href="https://subconmind.netlify.app" target="_blank"><button class="sign-up">Akriso</button></a>
+      </div>
+    </div>
+    <script>
+      // Get the modal
+      var modal = document.getElementById("myModal");
+      
+      // Get the button that opens the modal
+      var btn = document.getElementById("myBtn");
+      
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+      
+      // When the user clicks the button, open the modal 
+      btn.onclick = function() {
+        modal.style.display = "block";
+      }
+      
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() {
+        modal.style.display = "none";
+      }
+      
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      }
+      </script>
+</body>
+</html>
